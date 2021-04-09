@@ -1,0 +1,22 @@
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: space-between ;
+}
+
+.esfera {
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+.esfera:nth-child(odd){
+    background-color: blue;
+}
+
+.esfera:nth-child(even){
+    background-color: red;
+}
