@@ -2,7 +2,10 @@ import Esferas from './components/Esferas'
 
 function App() {
   return (
-    <div >
+    <div className = "container" >
+      <Esferas />
+      <Esferas />
+      <Esferas />
       <Esferas />
 
     </div>
